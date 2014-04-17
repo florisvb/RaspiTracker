@@ -67,3 +67,9 @@ https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/
    ./raspicambg  
 
 
+# Usage Notes
+
+1. Changing the resolution (e.g. when switching between the S-Video screen and HDMI monitor:
+   *sudo nano /boot/config.txt*
+   *edit the hdmi resolution, and that's it*
+   *more info at: http://elinux.org/R-Pi_ConfigurationFile*
