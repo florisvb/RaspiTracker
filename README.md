@@ -76,5 +76,8 @@ https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/
 
 2. Wiring Pi Permissions Fix:
    *after compiling pi_rotary_encoder run:*
-   **sudo chown root:root catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker**
-   **sudo chmod 4755 catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker**
+   *sudo chown root:root catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker*
+   *sudo chmod 4755 catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker*
+
+3. USB stick:
+   *Hard coded to be a patriot USB stick, without putting a patriot USB stick in it won't work*
