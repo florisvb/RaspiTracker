@@ -73,3 +73,8 @@ https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/
    *sudo nano /boot/config.txt*
    *edit the hdmi resolution, and that's it*
    *more info at: http://elinux.org/R-Pi_ConfigurationFile*
+
+2. Wiring Pi Permissions Fix:
+   *after compiling pi_rotary_encoder run:*
+   **sudo chown root:root catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker**
+   **sudo chmod 4755 catkin_ws/devel/lib/pi_rotary_encoder/encoder_talker**
